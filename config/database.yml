@@ -1,25 +1,75 @@
+#   Postgresql version 9.6.1
+#   gem install pg
+#
+#   Ensure the pg gem is defined in your Gemfile
+#   gem 'pg'
+#
+#default: &default
+#  adapter: postgresql
+#  pool: 5
+#  timeout: 5000
+
+development:
+  # <<: *default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000    
+  database: gordonzu_dev
+  username: gordonzu
+  password: Xxxc0nfig
+  host:     localhost  
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  # <<: *default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000    
+  database: gordonzu_test
+  username: gordonzu
+  password: Xxxc0nfig
+  host:     localhost  
+
+production:
+  #  <<: *default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000    
+  database: gordonzu_prod
+  username: gordonzu
+  password: Xxxc0nfig
+  host:     localhost  
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
-default: &default
-  adapter: sqlite3
-  pool: 5
-  timeout: 5000
+#default: &default
+#  adapter: sqlite3
+#  pool: 5
+#  timeout: 5000
 
-development:
-  <<: *default
-  database: db/development.sqlite3
+#development:
+#  <<: *default
+#  database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
-  database: db/test.sqlite3
+#test:
+#  <<: *default
+#  database: db/test.sqlite3
 
-production:
-  <<: *default
-  database: db/production.sqlite3
+#production:
+#  <<: *default
+#  database: db/production.sqlite3
+#
+#  database: db/production.sqlite3
+
+
+
+
