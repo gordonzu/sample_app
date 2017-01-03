@@ -1,0 +1,5 @@
+gordonzu  2081  0.0  0.0  38380  2636 ?        Sl   Jan01   0:00 /home/gordonzu/.pia_manager/pia_manager/64/ruby -I /home/gordonzu/.pia_manager/pia_manager -I /home/gordonzu/.pia_manager/pia_manager/64 /home/gordonzu/.pia_manager/pia_manager/run.rb --startup
+gordonzu  2212  0.4  0.4 1181684 16208 ?       Sl   Jan01   5:09 /home/gordonzu/.pia_manager/pia_manager/64/ruby -I /home/gordonzu/.pia_manager/pia_manager -I /home/gordonzu/.pia_manager/pia_manager/64 /home/gordonzu/.pia_manager/pia_manager/run.rb --run
+gordonzu  6227  0.0  0.2  98360 11536 pts/14   Tl   Jan01   0:00 ruby /home/gordonzu/.rvm/gems/ruby-2.3.3@railstutorial_5_0/bin/guard                                                                                
+gordonzu  6231  0.0  0.6 335604 27536 pts/14   Tl   Jan01   0:01 ruby /home/gordonzu/.rvm/gems/ruby-2.3.3@railstutorial_5_0/gems/guard-2.13.0/bin/_guard-core
+gordonzu 23297  0.0  0.0  15952  2040 pts/27   R+   15:46   0:00 grep --color=auto ruby
